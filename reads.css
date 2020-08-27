@@ -1,0 +1,116 @@
+body {
+    margin: 0 auto;
+    background-image: linear-gradient(to bottom right, #954535, #ffffff);
+}
+
+.zone {
+    /*padding:30px 50px;*/
+    /*cursor:pointer;*/
+    color:#FFF;
+    font-size:2em;
+    border-radius:4px;
+    border:1px solid #bbb;
+    transition: all 0.3s linear;
+}
+
+.zone:hover {
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+.mov{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+.container {
+    /*show heigh: auto*/
+
+    height: 70vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 3600px) {
+    .main-nav {
+        height:70vh; 
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+
+/***********************************************************************
+ *  Grid Panel
+ **********************************************************************/
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-gap: 20px;
+}
+
+.box {
+    background-image: linear-gradient(to bottom right, #954535, #ffffff);
+    padding: 55px;
+    margin: 20px;
+}
+
+.box > img {
+    width: 100%;
+}
+
+/***********************************************************************
+ *  Footer
+ **********************************************************************/
+footer {
+    text-align: center;
+    background-image: linear-gradient(to bottom right, #870000, #190a05);
+}
+
+/*https://paulund.co.uk/how-to-create-shiny-css-buttons*/
+/***********************************************************************
+ *  Green Background
+ **********************************************************************/
+.chilly {
+    background: #56B870; /* Old browsers */
+    background: -moz-linear-gradient(top, #C11B17 0%, #C11B17 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#C11B17), color-stop(100%,#a5c956)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #C11B17 0%,#C11B17 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #C11B17 0%,#C11B17 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #C11B17 0%,#C11B17 100%); /* IE10+ */
+    background: linear-gradient(top, #C11B17 0%,#C11B17 100%); /* W3C */
+}
+.chilly{
+    background-image: linear-gradient(to bottom right, #870000, #190a05);
+}
+.vred {
+    background: #56B870; /* Old browsers */
+    background: -moz-linear-gradient(top, #E55451 0%, #E55451 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#E55451), color-stop(100%,#a5c956)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #E55451 0%,#E55451 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #E55451 0%,#E55451 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #E55451 0%,#E55451 100%); /* IE10+ */
+    background: linear-gradient(top, #E55451 0%,#E55451 100%); /* W3C */
+}
+
+h1 {
+  font-size: 3rem;
+  color: #e2dbdb;
+  text-shadow: 2px 2px #0C0900;
+}
+h2{
+    text-decoration: underline;
+    
+}
